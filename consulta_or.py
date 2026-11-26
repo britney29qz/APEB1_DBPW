@@ -20,3 +20,6 @@ print("\nLISTADO DE HISTORIAS CLÍNICAS CON DIAGNÓSTICO 'INFECCIÓN URINARIA' O
 for historia in historias:
     print(historia)
     print("--------------------------------------------------")
+
+# Cerrar la sesión 
+session.close()  

@@ -52,3 +52,6 @@ session.add_all([
 session.commit()
 
 print("Datos ingresados correctamente")
+
+# Cerrar la sesión 
+session.close()  

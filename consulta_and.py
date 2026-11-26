@@ -13,10 +13,12 @@ historias = session.query(HistoriaClinica).join(Veterinario).filter(
         Veterinario.nombres == 'Carlos Eduardo'
     )).all()
 
-print("\nLISTADO DE HISTORIAS CLÍNICAS CON DIAGNÓSTICO DE FRACTURA DE PATA ATENDIDAS POR CARLOS EDUARDO:\n")
+print("\nLISTADO DE HISTORIAS CLÍNICAS CON DIAGNÓSTICO DE FRACTURA DE PATA ATENDIDAS POR EL DOCTOR CARLOS EDUARDO:\n")
 
 # Mostrar resultado
 for historia in historias:
     print(historia)
     print("--------------------------------------------------")
 
+# Cerrar la sesión 
+session.close()  

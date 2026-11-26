@@ -16,5 +16,5 @@ print("\nLISTADO DE VETERINARIOS CON LICENCIA PROFESIONAL 'VET369':\n")
 for veterinario in veterinarios:
     print(veterinario.nombres, veterinario.apellidos)
 
-
-print(veterinario)
+# Cerrar la sesión 
+session.close()  

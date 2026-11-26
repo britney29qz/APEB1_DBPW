@@ -22,8 +22,6 @@ for clinica in clinicas:
     print("Cantidad de historias clínicas:", cantidad_historias)
     print("--------------------------------------------------")
 
-####preguntar si hay que cerrar la sesion 
-####preguntar por contains
-####preguntar por el join
-####preguntar por la diferencia entre inportar create_engine y engine
-####consultar porque aqui no fue necesario importar la clase consultorio y veterinario, y en los otros si
+# Cerrar la sesión 
+session.close()  
+

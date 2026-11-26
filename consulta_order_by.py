@@ -16,3 +16,6 @@ print("\nLISTADO DE HISTORIAS CLÍNICAS ORDENADAS POR LA FECHA MÁS RECIENTE :\n
 for historia in historias:
     print(historia)
     print("--------------------------------------------------")
+
+# Cerrar la sesión 
+session.close()  
